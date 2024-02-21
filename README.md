@@ -1,3 +1,3 @@
 # Frontend for Thermal power station company
 
-!(screenshot)[preview.png]
+![screenshot](preview.png)
