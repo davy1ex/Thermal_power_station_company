@@ -1,0 +1,68 @@
+.navigation_area {
+    height: 4vh;
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+.navigation_area input {
+    width: 30px;
+    /* border: 3px solid black; */
+}
+
+.bottom_toolbar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 20px;
+}
+
+.arrows_buttons {
+    display: flex;
+    justify-content: space-around;
+}
+.bottom_toolbar button {
+    width: 40px;
+    margin: 0px;
+}
+.bottom_toolbar button img {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
+.pagination_container {
+    display: flex;
+    align-items: center; 
+}
+
+.pagination_text {
+    margin: 0 5px;
+}
+
+.pagination_select select {
+    width: 69px;
+    height: 27px;
+    
+    border: none;
+    
+    background-color: white;
+    background: #ffffff url('../imgs/icons/select.png') no-repeat top right;
+
+    margin: 0 5px;
+    padding-bottom: 5px;
+    
+    font-size: 16px;
+    
+}
+
+.pagination_number {
+    font-weight: bold;
+    margin-left: 5px;
+}

@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Список заявок</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/context_menu.css">
+    <link rel="stylesheet" href="css/navigation_area.css">
+    <link rel="stylesheet" href="css/mobile.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet"> <!-- This is an example; use the actual link provided by Google Fonts -->
+
+</head>
+<body>
+
+    <div class="content" id="content">
+        
+        
+
+        <div class="working_area">
+            
+            <div class="tableFixHead">
+                <table id="data-table">
+                
+                    <thead>
+                        <div class="control_panel">
+                            <div class="page_info">
+                                <div class="left_panel">
+                                    <div class="logo">АСУРЭО</div> <div class="dot">•</div>
+                        
+                                    <div class="page_name">
+                                        Список заявок
+                                    </div>
+                                </div>
+                                
+                                <div class="right_panel">
+                                    <div class="username">Иванов Иван Иваныч</div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="toolbar">
+                            <div class="left_toolbar">
+                                <a href="#"><img src="imgs/icons/Eye.svg.png" alt="View" class="icon">Просмотр</a>
+                                <a href="#"><img src="imgs/icons/flash.png" alt="Edit" class="icon">Редактирование</a>
+                            </div>
+                            <div class="center_toolbar">
+                                <a href="#"><img src="imgs/icons/plus.png" alt="Create" class="icon">Создание</a>
+                            </div>
+                            <div class="right_toolbar">
+                                
+                                <a href="#" class="filter_btn"><img src="imgs/icons/filter.png" alt="Filter" class="icon" >Фильтр ▼</a>
+                                <a href="#"><img src="imgs/icons/menu.png" alt="Settings" class="icon">Настройки</a>
+                            </div>
+                            
+                        </div>
+                        <div class="filter_container">
+                            <a href="#" class="filter_btn filter_btn_topped">► Фильтр </a>
+                            
+                        </div>
+                        <div class="dropdown">
+                            <div class="dropdown_content" id="filterDropdown">
+                                <a href="#" class="filter_btn">▼ Фильтр </a>
+                                <span class="colored_filter">"Все заявки"</span>
+                                
+                            </div>
+                        </div>
+                        
+                        <tr>
+                            <th>Номер</th>
+                            <th>Предприятие</th>
+                            <th>Состояние заявки</th>
+                            <th>Объект</th>
+                            <th>Оборудование</th>
+                            <th>Совокупн. начало</th>
+                            <th>Совокупн. конец</th>
+                            <th>Разреш. начало</th>
+                            <th>Разреш. конец</th>
+                            <th>Вид</th>
+                            <th>Категория</th>
+                            <th>УПР</th>
+                        </tr>
+                    </thead>
+                    
+                    <tbody>
+                        <!-- data from json -->
+                    </tbody>
+                    
+                    
+                </table>
+                
+            </div>
+        </div>
+            
+        <div class="cards_container">
+
+        </div>
+        <div class="navigation_area">
+            <div class="bottom_toolbar">
+                <div class="left_pageinfo">
+                    <span class="page_text">Страница</span>
+                    <input type="text" value="1"> из 2                    
+                </div>
+                <div class="left_pageinfo_mobile">
+                    Стр
+                    <input type="text" value="1"> из 2                    
+                </div>
+                
+                <div class="arrows_buttons">
+                    <button type="button">
+                        <img src="imgs/icons/arrow_to_end.png" alt="Button Image">
+                    </button>
+                    <button type="button">
+                        <img src="imgs/icons/arrow_left.png" alt="Button Image">
+                    </button>
+                    <button type="button">
+                        <img src="imgs/icons/arrow_right.png" alt="Button Image">
+                    </button>
+                    <button type="button">
+                        <img src="imgs/icons/arrow_to_end_broken.png" alt="Button Image">
+                    </button>
+                </div>
+
+                <div class="pagination_container">
+                    <span class="pagination_text notes_count">Записей на странице</span>
+                    <div class="pagination_select">
+                        <select>
+                        </select>
+                    </div>
+                    <span class="pagination_text">из</span>
+                    <span class="pagination_number">63</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/context_menu.js"></script>
+    <script src="js/pagination.js"></script>
+
+    <script src="js/mobile.js"></script>
+
+
+    <div id="contextMenu" class="context-menu" style="display: none;">
+        <ul>
+            <li><a href="./edit.html">Просмотр заявки</a></li>
+            <li><a href="./edit.html">Редактирование заявки</a></li>
+        </ul>
+    </div>
+</body>
+</html>

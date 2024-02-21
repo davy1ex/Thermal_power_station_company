@@ -1,0 +1,76 @@
+.tableFixHead  { 
+    overflow: auto; 
+    height: calc(95vh - 2vh); 
+}
+
+.tableFixHead thead th { 
+    position: sticky; 
+    top: 50px; 
+    z-index:5; 
+    background-color: white; 
+    text-align: center;
+    color: #518ee8;
+}
+
+
+
+table {
+    width: 100%;
+    font-weight: normal;
+    border-collapse: separate;
+    border-spacing: 0;
+    
+    border-right: 4px solid black;
+}
+
+th, td {
+    padding: 8px 16px;
+    text-align: left;
+    white-space: nowrap; 
+
+}
+
+.toolbar { 
+    position: sticky; 
+    top: 0; 
+    left: 0;
+    z-index: 10;
+}
+
+thead {
+    overflow: auto; /* its fix horizontal sticky of toolbar lol */
+}
+table, tr, td, th{
+    margin: auto;
+    border: none;
+}
+
+td {
+    border-right: 4px solid black;
+}
+th {
+    border-right: 4px solid black;
+}
+
+tr td:first-child {
+    color: #29629a;
+    font-weight:bolder;
+    text-decoration:underline;
+}
+tr:nth-child(even) {
+    background-color: #edf3ee;
+}
+
+tr:hover {
+    background: #95bcf2;
+}
+
+.navigation_area {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.cards_container {
+    display: none;
+  }

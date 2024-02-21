@@ -1,0 +1,157 @@
+body {
+    font-family: 'Comic Neue', cursive;
+    font-weight: 10px;
+    margin: 0;
+}
+a {
+    text-decoration: none;  
+}
+a:visited {
+    color: black;
+}
+
+
+.content {
+    font-size: 1.3em;
+}
+
+.page_info {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 40px;
+    line-height: 40px;
+
+    color: #518ee8;
+}
+
+.left_panel {
+    display: flex;
+    align-items: row;
+    text-align: center;
+    padding-left:20px;
+    
+}
+.dot {
+    font-size: 40px;
+    margin: 0 5px;
+}
+
+
+.pannel_btn {
+    background-color: #EEEEEE;
+}
+
+.working_area {
+    overflow-x: auto;
+}
+
+
+
+.toolbar {
+    background-color: #EEEEEE; 
+    overflow: hidden; 
+    width: 100%;
+    display: flex;
+    
+    flex-direction: row;
+    padding-left: 20px  ;
+}
+
+.left_toolbar, .right_toolbar {
+    width: 350px;
+    height: 50px;
+
+    display: flex;
+    flex-direction: row;
+}
+.center_toolbar {
+    width: 150px;
+    height: 50px;
+}
+
+.center_toolbar {
+    margin-left: 1
+}
+
+.right_toolbar {
+    float: left;
+}
+
+.toolbar a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    height: 30px;
+
+    color: white; 
+    text-align: center;
+
+    padding: 2px 10px; 
+    margin: 10px 0;
+
+    text-decoration: none; 
+    font-size: 16px;
+    line-height: 20px; 
+
+    border: 2px solid black;
+    color: black;
+    border-radius: 7px 4px 4px 4px;
+
+}
+
+
+.toolbar a:hover {
+    background-color: #eee; 
+    color: black;
+}
+
+.toolbar img.icon {
+width: 30px;
+height: 30px;
+vertical-align: middle; 
+margin-right: 8px; 
+}
+
+.username {
+    text-decoration:underline;
+    padding-right: 20px;
+
+    color: #518ee8;
+}
+
+
+
+.filter_container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding: 10px 20px;
+}
+.filter_btn {
+    color: black
+}
+.dropdown_content {
+    display: none;
+    min-width: 160px;
+    height: 300px;
+}
+
+
+.colored_filter {
+    color: #4483e5;
+}
+
+
+
+
+  
+
+
+
+

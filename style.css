@@ -1,0 +1,109 @@
+.content {
+    width: 98%;
+    margin: auto;
+    font-size: 1.3em;
+}
+
+.page_info {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 40px;
+    line-height: 40px;
+
+    color: lightseagreen;
+}
+
+.left_panel {
+    display: flex;
+    align-items: row;
+    text-align: center;
+
+    
+}
+.dot {
+    font-size: 40px;
+    margin: 0 5px;
+}
+
+
+.pannel_btn {
+    background-color: #EEEEEE;
+}
+
+.working_area {
+    overflow-x: auto;
+}
+
+
+
+.toolbar {
+    background-color: #EEEEEE; /* Dark background for the toolbar */
+    overflow: hidden; /* Ensures the content is contained within the toolbar */
+  }
+
+.toolbar a {
+    float: left; /* Align items in a row */
+    display: block; /* Change the a element to a block for styling */
+    color: white; /* Text color */
+    text-align: center; /* Center the text inside the block */
+
+    padding: 2px 10px; /* Padding around the text */
+    margin: 10px 0;
+
+    text-decoration: none; /* Remove underline from links */
+    font-size: 16px; /* Set font size */
+    line-height: 20px; /* Set line height to align text with icon */
+
+    border: 2px solid black;
+    color: black;
+    border-radius: 7px 4px 4px 4px;
+
+}
+.toolbar a:nth-child(3) {
+    margin-left: 25px;
+    margin-right: 10px;
+}
+
+.toolbar a:nth-child(5) {
+    margin-left: 5px;
+    padding: 6px;
+}
+
+.toolbar a:hover {
+background-color: #eee; /* Color for hover effect */
+color: black; /* Text color change for hover effect */
+}
+
+.toolbar img.icon {
+width: 30px;
+vertical-align: middle; /* Align the icon with the text */
+margin-right: 8px; /* Spacing between icon and text */
+}
+
+
+.dropdown_content {
+    display: none;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+  
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}

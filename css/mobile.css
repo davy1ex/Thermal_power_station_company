@@ -1,0 +1,124 @@
+@media (min-width:768px)  and (max-width: 1050px) {
+    .toolbar a {
+        padding: 2px 5px;
+    }   
+      
+}
+
+@media  (min-width: 100px) and (max-width: 767px) {
+    body {
+        font-size: 0.7em;
+        margin: 0px;
+    }
+
+    .logo, .dot {
+        display: none;
+    }
+    .control_panel {
+        width: 100vw;
+    }
+    .username {
+        padding-right: 10px;
+    }
+    .toolbar {
+        width: auto;
+    }
+
+    .toolbar a {
+        width: 30px;
+        height: 20px;
+        font-size: 0;
+    }
+
+    .toolbar img {
+        width: 25px !important;
+        height: 20px !important;
+    }
+
+
+    .content {
+        font-weight: 600;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .dropdonw, .cards_container {
+        padding: 0 10px;
+    }
+
+    .filter_container, .dropdown {
+        padding-left: 20px;
+    }
+    .cards_container {
+        display: block;
+        overflow: auto;
+        height: 80vh;
+      }
+      
+      #data-table {
+        display: none;
+      }
+      
+      .tableFixHead {
+        height: auto; 
+      }
+    
+    
+
+    .data_card {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }   
+
+    .cell {
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+
+    .data_card .cell:first-child .cell_value {
+        border-bottom: 2px solid #518ee8;
+        color: #29629a;
+        font-weight: bolder;
+      }
+    .cell_header:nth-child(1) {
+        color: #518ee8;
+    }
+
+    .data_card {
+        border-top:     2px solid black;
+        border-bottom:  2px solid black;
+        border-right:   2px solid black;
+        border-left:    2px solid black;
+    }
+
+
+    .pagination_container {
+        padding-right: 0px;
+    }
+
+    
+
+    .bottom_toolbar button {
+        width: 20px;
+        margin: 0px;
+        padding: 0;
+    }
+    .bottom_toolbar button img {
+        width: 15px !important;
+        height: 15px !important;
+    }
+
+
+    /* navigation area */
+    .navigation_area {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    span.pagination_text {
+        margin: 0px;
+    }
+    
+}
